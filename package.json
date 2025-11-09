@@ -1,0 +1,24 @@
+{
+  "name": "@garbee/script-detector",
+  "version": "0.0.0",
+  "description": "Detect NPM Scripts in your dependencies",
+  "keywords": [
+    "security",
+    "npm"
+  ],
+  "homepage": "https://github.com/Garbee/script-detection#readme",
+  "bugs": {
+    "url": "https://github.com/Garbee/script-detection/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Garbee/script-detection.git"
+  },
+  "license": "MIT",
+  "author": "Jonathan Garbee <jonathan@garbee.me>",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
