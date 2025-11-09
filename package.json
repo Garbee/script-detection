@@ -1,5 +1,5 @@
 {
-  "name": "@garbee/script-detector",
+  "name": "@garbee/script-detection",
   "version": "0.0.0",
   "description": "Detect NPM Scripts in your dependencies",
   "keywords": [
