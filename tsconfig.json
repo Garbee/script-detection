@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "node16",
+    "lib": ["es2022", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator", "ESNext.Promise"],
+    "noEmit": true,
+    "isolatedModules": true,
+    "rootDir": ".",
+    /* Ensure we can run the ts files directly through node. */
+    "erasableSyntaxOnly": true,
+    /** When running directly on node, we import files specifically. */
+    "allowImportingTsExtensions": true,
+    "strict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+
+    /* Module Resolution */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+}

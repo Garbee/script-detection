@@ -17,8 +17,17 @@
   "license": "MIT",
   "author": "Jonathan Garbee <jonathan@garbee.me>",
   "type": "module",
-  "main": "index.ts",
+  "exports": {
+    "./findLifecycleScripts.ts": "./findLifecycleScripts.ts"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "devDependencies": {
+    "@npm/types": "^2.1.0",
+    "@types/node": "^22.19.0"
   }
 }
